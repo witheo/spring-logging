@@ -5,7 +5,7 @@ import org.junit.Test;
 
 public class markersTest {
     @Test
-    public void testFialtalMarker() {
+    public void testFatalMarker() {
         Assert.assertEquals(Markers.FATAL.getName(), "FATAL" );
     }
 }
